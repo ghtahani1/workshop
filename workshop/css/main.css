@@ -1,0 +1,149 @@
+body {
+}
+h1 , h2 , h4 , h3 ,p , a { font-family: 'Tajawal', sans-serif;
+    
+}
+
+
+#fullpage {
+    height: 100vh;
+}
+
+/*navbar*/
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: 'Harmattan', sans-serif;
+color:rgb(38, 0, 89);
+font-size: 22px;
+}
+
+.lang {
+    margin-right: 450px;
+    color:rgb(38, 0, 89);
+}
+
+.bg-auto { background-color: gainsboro;}
+.dropdown-menu { background-color: goldenrod; border: none;}
+.dropdown-toggle::after {
+    margin-right: 0.8em;
+    font-size: 14px;
+}
+
+.main {
+    background-image: url("../img/mic.jpg");
+    background-attachment:fixed;
+    background-position: center; 
+    -webkit-background-size:cover;  
+	-moz-background-size:cover;  
+	-o-background-size:cover;  
+    background-size:cover;  
+    height: 100vh;
+    
+ }
+.main .pic1  {
+ 
+}
+
+/* list */
+
+#menu {margin-right: 60px ; padding: 0; position: fixed; top: 50%; z-index: 9999; }
+ 
+
+#menu li #div1 , #div2 , #div3
+{ 
+    margin-top: 28px;
+    width: 12px;
+    height: 12px;
+    background:white;
+    border-radius: 50%;
+}
+
+   #menu li #div1.active , #div2.active, #div3.active  { background: goldenrod; }
+
+  
+
+
+/* Section about */
+
+.about {
+    background-image: url("../img/shape.png"); 
+    background-attachment:fixed;
+    background-position: center; 
+    -webkit-background-size:cover;  
+	-moz-background-size:cover;  
+	-o-background-size:cover;  
+    background-size:cover;  
+    /* background:#c8c8bfb8;  */
+    height: 100vh;
+   
+    }
+ .cert{
+     height: 400px;
+    box-shadow: 15px 15px 8px #aaaaaa;
+ background:#262626;
+
+color: #ccc;
+}
+.cert h2 { padding-top: 40px; font-size: 45px;}
+
+.cert p { margin-top: 20px; font-size: 25px;}
+
+#square { 
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: goldenrod;
+    margin-top: -254px;
+    margin-right: 49px;
+}
+
+#square2 { 
+    width: 60px;
+    height: 60px;
+    background: goldenrod;
+    margin-top: 265px;
+    margin-right: 352px;
+    border-radius: 50%;
+}
+.info {
+    margin-top: 80px;
+  
+
+}
+.social i { color: white; margin-right: 7px; padding-bottom: 20px;}
+
+
+
+/* Section SKIlls*/
+
+.skills {
+    height: 100vh;
+    background: #262626;
+    color: #ccc;
+    padding-bottom: 30px;
+}
+
+.skills h5 {
+    font-size: 15px;
+}
+.skills h2 { padding-bottom: 40px;}
+.animated-progress {
+    width: 300px; 
+    height: 20px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    background: #f6f6f6;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.animated-progress  span {
+    width: 0;
+    height: 100%;
+    display: block;
+    background: goldenrod;
+}
+
+
+.social {
+    margin-top: -435px; 
+}

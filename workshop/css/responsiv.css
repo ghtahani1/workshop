@@ -1,0 +1,142 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+
+	#new_order_btn{font-size: 30px;}
+	#newUserOrder{
+		margin-top:5%;
+	}
+	
+	.resBg{
+		background-attachment: fixed !important;
+	}
+	
+	.topHeader img{max-width: 8%;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	#new_order_btn{
+		min-width: 20%;
+		margin: 0px 0% 0% 21%;
+		font-size: 30px;
+	}
+
+	.sellParts2,
+	.sellParts3{
+	  display: none;
+	}
+	
+	#newUserOrder{
+		margin-top:15%;
+	}
+	
+	.resBg{
+		background-attachment: !important;
+	}
+	.topHeader img{max-width: 8%;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	#new_order_btn {
+		min-width: 40%;
+		font-size: 30px;
+	}
+	h1{font-size:3em;}
+	h2{font-size:2.5em;}
+	#section3 .bottom{height:auto;}
+	.sellParts2,
+	.sellParts3{
+	  display: none;
+	}
+	
+	#newUserOrder{
+		margin-top:12%;
+	}
+	
+	.resBg{
+		background-attachment: scroll !important;
+	}
+	.topHeader img{max-width: 8%;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.section-home-bottom{
+	top: 50%;
+	height: 50%;
+	z-index: 4;
+	overflow-y: hidden;
+	}
+	h1{font-size:1.5em;}
+	h2{font-size:1em;}
+
+	#new_order_btn {
+		min-width: 52%;
+		margin: 0px 0% 0% 50%;
+		font-size: 25px;
+
+	}
+	#sellPartsBack,
+	#reqPartsBack{
+
+		margin-top:-6vh;
+	}
+
+	.sellParts2,
+	.sellParts3{
+	  display: none;
+	}
+	#section3 .top {
+		padding: 70% 0 70% 0;
+	}
+		#section3 .bottom{height:auto;}
+	.getStart{
+		font-size: 20px;
+	}
+	
+	#newUserOrder{
+		margin-top:20%;
+	}
+	
+	.resBg{
+		background-attachment: scroll !important;
+	}
+	.topHeader img{max-width:15%;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	#new_order_btn {
+		min-width: 62%;
+		font-size: 20px;
+	}
+	h1{font-size:1em;}
+	h2{font-size:1em;}
+
+	.sellParts2,
+	.sellParts3{
+	  display: none;
+	}
+	#section3 .top {
+		padding: 70% 0 70% 0;
+	}
+	.getStart{
+		font-size: 20px;
+	}
+	
+	#newUserOrder{
+		margin-top:20%;
+	}
+	
+	.resBg{
+		background-attachment: scroll !important;
+	}
+	.topHeader img{max-width: 15%;}
+}
